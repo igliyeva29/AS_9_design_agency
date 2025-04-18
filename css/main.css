@@ -1,0 +1,85 @@
+.bg-image {
+    background-image: url("../img/home-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-between {
+    background-image: url("../img/cta-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(199, 196, 196, 0.274);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-1:hover {
+    color: red!important;
+}
+.card {
+    cursor: pointer;
+    transition: ease 0.s;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.ps-10 {
+    padding-left: 50px;
+}
+
+.ps-20 {
+    padding-left: 200px;
+}
+
+.pe-10 {
+    padding-right: 50px;
+}
+
+.header-margin-top {
+    margin-top: -6rem;
+}
+
+.header-margin-bottom {
+    margin-bottom: -6rem;
+}
+
+.text-orange {
+    color: #FB9526;
+}
+
+.bg-orange {
+    background-color: #FB9526;
+}
+
+.border-orange {
+    border: 2px solid #FB9526;
+}
+
+input {
+    border: 0px;
+}
+
+.btn {
+    border: 0px;
+    background-color: white;
+    color: gray;
+}
